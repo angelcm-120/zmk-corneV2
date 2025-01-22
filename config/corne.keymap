@@ -15,14 +15,14 @@
         menorque: menorque {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp SPACE &kp LESS_THAN &kp LEFT_WIN &kp SPACE>;
+            bindings = <&kp LG(SPACE) &kp LESS_THAN &kp LG(SPACE)>;
             label = "MENORQUE";
         };
 
         mayorque: mayorque {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp SPACE &kp GREATER_THAN &kp LEFT_WIN &kp SPACE>;
+            bindings = <&kp LG(SPACE) &kp GREATER_THAN &kp LG(SPACE)>;
             label = "MAYORQUE";
         };
     };
